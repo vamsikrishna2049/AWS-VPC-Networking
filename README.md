@@ -3,12 +3,12 @@
 
 # # # # # Course Syllabus
 # Day 1: AWS VPC Overview
-  AWS VPC Overview
-  CIDR Overview
-  Subnets Overview
-  Route Table Overview
-  Internet Gateway Overview
-  Overview of Default VPC
+#  AWS VPC Overview
+#  CIDR Overview
+#  Subnets Overview
+#  Route Table Overview
+ # Internet Gateway Overview
+ # Overview of Default VPC
   Lab - Creation of Customized VPC
   NAT Gateway and NAT Instance Overview
   Lab - Creation of NAT Gateway
