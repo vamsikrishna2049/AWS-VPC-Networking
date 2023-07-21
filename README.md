@@ -1,25 +1,24 @@
 # AWS-Networking-5-Days-Practical-Live-Workshop
 
 
-Course Syllabus
-Day 1: AWS VPC Overview
-
-
-AWS VPC Overview
-CIDR Overview
-Subnets Overview
-Route Table Overview
-Internet Gateway Overview
-Overview of Default VPC
-Lab - Creation of Customized VPC
-NAT Gateway and NAT Instance Overview
-Lab - Creation of NAT Gateway
-Lab - Deletion of NAT Gateway
-Lab - Creation of NACL
-Lab - Creation of Security Group
-Lab - Creation VPC flow logs
-Lab - Deletion of VPC
-Q/A
+# # # # # Course Syllabus
+# Day 1: AWS VPC Overview
+  AWS VPC Overview
+  CIDR Overview
+  Subnets Overview
+  Route Table Overview
+  Internet Gateway Overview
+  Overview of Default VPC
+  Lab - Creation of Customized VPC
+  NAT Gateway and NAT Instance Overview
+  Lab - Creation of NAT Gateway
+  Lab - Deletion of NAT Gateway
+  Lab - Creation of NACL
+  Lab - Creation of Security Group
+  Lab - Creation VPC flow logs
+  Lab - Deletion of VPC
+  Q/A
+  
 Day 2: AWS VPC Peering
 
 
