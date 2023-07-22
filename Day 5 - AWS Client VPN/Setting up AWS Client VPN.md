@@ -22,21 +22,25 @@ Set up an Active Directory (AD) server, either on-premises or in AWS, to manage 
 # Step 3: Create the Client VPN endpoints
 
 Create and Configure the Client VPN endpoints in your AWS environment.
-
+```xml
 + Name: Murali-VPN
-+ CIDR : 10.22.0.0/22
++ Client IPv4 CIDR : 10.22.0.0/22
 
 + DNS server 1 IP address - 10.0.0.2
 + DNS server 1 IP address - 8.8.8.8
-
+```
 ## 3.1: Target network associations
 
 + Associate the Client VPN endpoint with the target network(s) that you want to grant VPN access to.
-
+```xml
+Add the public subnets to the target network associations.
+```
 ## 3.2: Add the Authorization rules
 
 + Set up the necessary authorization rules to control which users have access to specific resources through the VPN.
-
+```xml
+To allow all users, add the CIDR 10.0.0.0/16.
+```
 ## 3.3: Download the Client Configuration
 
 + Download the client configuration files for the VPN connection, which will be used to configure VPN client software on the user's devices.
