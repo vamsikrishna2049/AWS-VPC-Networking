@@ -5,7 +5,7 @@
 + <b>Description:</b>Setting up Intra region TGW peering with the different AWS account</br>
 
 # Follow the steps below to set up Intra region TGW peering with the different AWS account.
-![Lab - Setting up Intra region TGW peering with a different account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+![Lab - Setting up Intra region TGW peering with a different account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru](https://github.com/telugudevopsguru/AWS-Networking-5-Days-Practical-Live-Workshop/blob/5d84d7b6a6fa6efa50664498a3844c9fee1d218a/Day%203%20-%20AWS%20Transit%20Gateway/Images/Lab%20-%20Setting%20up%20Intra%20region%20TGW%20peering%20with%20a%20different%20account%20in%20telugu%20-%20Moole%20Muralidhara%20Reddy%20-%20Telugu%20Devops%20Guru.png)
 
 ## Step 1: Create the AWS VPC
 Name: VPC-A in US East (N. Virginia) us-east-1
