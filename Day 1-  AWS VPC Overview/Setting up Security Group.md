@@ -5,7 +5,7 @@
 + <b>Description:</b>Setting up Security Group</br>
 
 # Setting up Security Group
-![Lab - Setting up Security Group in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+![Lab - Setting up Security Group in telugu - Moole Muralidhara Reddy - Telugu Devops Guru](https://github.com/telugudevopsguru/AWS-Networking-5-Days-Practical-Live-Workshop/blob/bcbe8ffa547074a6810ec267fa8da217a8dd50ef/Day%201-%20%20AWS%20VPC%20Overview/Images/Lab%20-%20Setting%20up%20Security%20Group%20in%20telugu%20-%20Moole%20Muralidhara%20Reddy%20-%20Telugu%20Devops%20Guru.png)
 
 ## Step 1: Create the Security Group
 ```xml
