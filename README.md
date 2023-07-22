@@ -13,7 +13,7 @@
 +  NAT Gateway and NAT Instance Overview
 +  Lab - Setting up NAT Gateway
 +  Lab - Setting up NACL
-+  Lab - Setting up ecurity Group
++  Lab - Setting up Security Group
 +  Lab -Setting up VPC flow logs
 +  Lab - Deletion of VPC
 +  Lab - Deletion of NAT Gateway
