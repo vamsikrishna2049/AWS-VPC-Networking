@@ -37,25 +37,44 @@ Name: VPC-B-IGW.
 ```
 ## Step 8: Create a route table and name it VPC-B-RouteTable and attach the public subnet to this RouteTable.
 
-## Step 9: Create the TGW for both regions
+## Step 9: Create the Transit Gateway in both AWS accounts for both regions.
 ```xml
 Name: TGW-VPC-A
 Name: TGW-VPC-B
 ```
 ## Step 10: Create the TGW attachments for VPC.
-
-## Step 11: Create the TGW route table and associate it with the TGW attachments.
-
+```xml
+Name: TGW-VPC-A-Attachment
+Name: TGW-VPC-B-Attachment
+```
+## Step 11: Create the TGW route table and associate it with the TGW attachments both regions.
+```xml
+Name: TGW-VPC-A-RouteTable
+Name: TGW-VPC-B-RouteTable
+```
 ## Step 12: Creation the TGW peering connection from VPC-A to VPC-B
+```xml
+Name: TGW-VPC-A-to-VPC-B-Peering
+```
 ## Step 13: Accept the TGW peering connection in the destination region(different account).
 ## Step 14: Create the static route VPC-B's CIDR block to the TGW peering connection of VPC-A account in TGW RouteTable.
+```xml
+VPC-B CIDR : 192.168.0.0/16
+```
 ## Step 15: Create the static route VPC-A's CIDR block to the TGW peering connection of VPC-B account in TGW RouteTable.
-
+```xml
+VPC-A CIDR : 10.0.0.0/16
+```
 ## Step 16: Update the route tables in both VPCs to allow traffic to the other VPC.
 
 + In VPC-A route table, add a route for VPC-B's CIDR block to the TGW connection.
+```xml
+VPC-B CIDR : 192.168.0.0/16
+```
 + In VPC-B route table, add a route for VPC-A's CIDR block to the TGW connection.
-
+```xml
+VPC-A CIDR : 10.0.0.0/16
+```
 ## Step 17: Launch an EC2 instance in both VPC's public subnets.
 
 ## Step 18: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
