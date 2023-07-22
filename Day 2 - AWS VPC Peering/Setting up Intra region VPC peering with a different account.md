@@ -20,7 +20,10 @@ Name: VPC-A-Public-subnet-1a.
 Name: VPC-A-IGW.
 ```
 ## Step 4: Create a route table and name it VPC-A-RouteTable and attach the public subnet to this RouteTable.
-
+```xml
+Name : VPC-A-RouteTable
+Subnet Name: VPC-A-Public-subnet-1a
+```
 ## Step 5: Create the AWS VPC in different account
 ```xml
 Name: VPC-B in US East (N. Virginia) us-east-1
@@ -36,8 +39,11 @@ Name: VPC-B-Public-subnet-1a
 Name: VPC-B-IGW
 ```
 ## Step 8: Create a route table and name it VPC-B-RouteTable and attach the public subnet to this RouteTable.
-
-Step 9: Create the VPC peering
+```xml
+Name : VPC-B-RouteTable
+Subnet Name: VPC-B-Public-subnet-1a
+```
+## Step 9: Create the VPC peering
 ```xml
 Name: VPC-A-to-VPC-B-Peering
 ```
