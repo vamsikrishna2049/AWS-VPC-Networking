@@ -32,29 +32,45 @@ Name: VPC-B-IGW
 ## Step 8: Create a route table and name it VPC-B-RouteTable and attach the public subnet to this RouteTable.
 
 ## Step 9: Create the TGW
-
+```xml
+Name: TGW-VPC
+```
 ## Step 10: Create the TGW attachments for VPC-A.
-
+```xml
+Name: TGW-VPC-A-Attachment
+```
 ## Step 11: Create the TGW route table and associate it with the TGW attachments of VPC-A.
+```xml
+Name: TGW-VPC-RouteTable
+Associate with the TGW-VPC-A-Attachment.
+```
+## Step 12: Create the propagation for TGW-VPC-A-Attachment in the TGW route table.
+## Step 13: Share the TGW with destination account using AWS RAM.
+```xml
+Name: TGW-VPC
+```
+## Step 14: Accept the TGW in the AWS RAM destination account.
 
-## Step 12: Share the TGW with destination account using AWS RAM.
-
-## Step 13: Accept the TGW in the AWS RAM destination account.
-
-## Step 14: Create the TGW attachments for VPC-B and accept the request in source account
-
-## Step 15: In TGW RouteTable associate it with the TGW attachments of VPC-B in source account.
-
-## Step 16: Update the route tables in both VPCs to allow traffic to the other VPC.
+## Step 15: Create the TGW attachments for VPC-B and accept the request in source account
+```xml
+Name: TGW-VPC-B-Attachment
+```
+## Step 16: In TGW RouteTable associate it with the TGW attachments of VPC-B in source account.
+```xml
+Name: TGW-VPC-RouteTable
+Associate with the TGW-VPC-B-Attachment.
+```
+## Step 17: Create the propagation for TGW-VPC-B-Attachment in the TGW route table.
+## Step 18: Update the route tables in both VPCs to allow traffic to the other VPC.
 
 + In VPC-A route table, add a route for VPC-B's CIDR block to the TGW connection.
 + In VPC-B route table, add a route for VPC-A's CIDR block to the TGW connection.
 
-## Step 17: Launch an EC2 instance in both VPC's public subnets.
+## Step 19: Launch an EC2 instance in both VPC's public subnets.
 
-## Step 18: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
+## Step 20: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
 
-## Step 19: Test the connectivity between the instances using the ping command.
+## Step 21: Test the connectivity between the instances using the ping command.
 
 ####  Congratulations, you have successfully set up Intra-region VPC peering with different accounts and tested connectivity between instances in the public subnets of each VPC..
 

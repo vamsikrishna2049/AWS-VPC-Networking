@@ -38,21 +38,31 @@ Name: VPC-B-IGW.
 ## Step 8: Create a route table and name it VPC-B-RouteTable and attach the public subnet to this RouteTable.
 
 ## Step 9: Create the TGW
-
+```xml
+Name: TGW-VPC
+```
 ## Step 10: Create the TGW attachments for both VPCs.
-
+```xml
+Name: TGW-VPC-A-Attachment
+Name: TGW-VPC-B-Attachment
+```
 ## Step 11: Create the TGW route table and associate it with the TGW attachments.
-
-## Step 11: Update the route tables in both VPCs to allow traffic to the other VPC.
+```xml
+Name: TGW-VPC-RouteTable
+TGW-VPC-A-Attachment
+TGW-VPC-B-Attachment
+```
+## Step 12: Create the propagation for both TGW-VPC-A-Attachment and TGW-VPC-B-Attachment in the TGW route table.
+## Step 13: Update the route tables in both VPCs to allow traffic to the other VPC.
 
 + In VPC-A route table, add a route for VPC-B's CIDR block to the TGW  connection.
 + In VPC-B route table, add a route for VPC-A's CIDR block to the TGW connection.
 
-## Step 12: Launch an EC2 instance in both VPC's public subnets.
+## Step 14: Launch an EC2 instance in both VPC's public subnets.
 
-## Step 13: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
+## Step 15: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
 
-## Step 14: Test the connectivity between the instances using the ping command.
+## Step 16: Test the connectivity between the instances using the ping command.
 
 ####  Congratulations, you have successfully set up Intra region VPC peering with same account and tested connectivity between instances in the public subnets of each VPC.
 
