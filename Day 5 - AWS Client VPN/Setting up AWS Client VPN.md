@@ -11,14 +11,16 @@ You can follow the steps below to set up the AWS Client VPN endpoint.</br>
 
 + Request an SSL/TLS certificate from AWS Certificate Manager (ACM) for the domain "techworldwithmurali.in." This certificate will be used to secure the Client VPN connections.
 
-+ Name: techworldwithmurali.in
-
+```xml
+ Name: techworldwithmurali.in
+```
 # Step 2: Create the Active Directory in AWS
 
 Set up an Active Directory (AD) server, either on-premises or in AWS, to manage user authentication for the Client VPN.
 
-+ Name: techworldwithmurali.in
-
+```xml
+Name: techworldwithmurali.in
+```
 # Step 3: Create the Client VPN endpoints
 
 Create and Configure the Client VPN endpoints in your AWS environment.
