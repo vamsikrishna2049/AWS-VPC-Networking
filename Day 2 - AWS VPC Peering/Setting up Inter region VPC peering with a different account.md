@@ -5,7 +5,7 @@
 + <b>Description:</b>Setting up Inter region VPC peering with different account</br>
 
 # Setting up Inter region VPC peering with different account
-![Lab - Setting up Inter region VPC peering with a different account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+![Lab - Setting up Inter region VPC peering with a different account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru](https://github.com/telugudevopsguru/AWS-Networking-5-Days-Practical-Live-Workshop/blob/b16bda887c7c506c15f7dad8d4d68dc49a679a62/Day%202%20-%20AWS%20VPC%20Peering/Images/Lab%20-%20Setting%20up%20Inter%20region%20VPC%20peering%20with%20a%20different%20account%20in%20telugu%20-%20Moole%20Muralidhara%20Reddy%20-%20Telugu%20Devops%20Guru.png)
 
 ## Step 1: Create the AWS VPC
 ```xml
