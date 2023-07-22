@@ -42,19 +42,18 @@ On-Premises - 192.168.0.0/16
 Local IPv4 network CIDR - 192.168.0.0/16 (On-Premises)
 Remote IPv4 network CIDR - 10.0.0.0/16 (AWS CIDR)
 ```
-## Add the route table preparation for the Virtual Private Gateway in AWs Side.
+## Step 5: Add the route table preparation for the Virtual Private Gateway in AWs Side.
 
-## Step 5: Download the Configuration of the Site-to-Site VPN Connection and configure it in OpenSwan Server.
-## Step 8: Add the OpenSwan instance id  route to the Public RouteTable.
-
+## Step 6: Download the Configuration of the Site-to-Site VPN Connection and configure it in OpenSwan Server.
+## Step 7: Add the OpenSwan instance id  route to the Public RouteTable.
 ```xml
 Route Entry
 
 Destination : 10.0.0.0/16
 Target : OpenSwan instance ID
 ```
-## Step 6: Launch AWS EC2 instances in both VPCs(AWS VPC and the On-Premises VPC.).
+## Step 8: Launch AWS EC2 instances in both VPCs(AWS VPC and the On-Premises VPC.).
 
-## Step 7: Test the connection between the AWS VPC and the On-Premises VPC.
+## Step 9: Test the connection between the AWS VPC and the On-Premises VPC.
 
 ### Congratulations! You have successfully set up the AWS Site-to-Site VPN Connection.
