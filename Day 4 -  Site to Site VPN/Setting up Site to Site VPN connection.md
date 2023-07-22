@@ -7,8 +7,12 @@
 # Setting Up AWS Site-to-Site VPN Connection:
 
 You can follow the steps below to set up the AWS Site-to-Site VPN Connection.
-
-##  Step 1: Launch the AWS EC2 instance for installing OpenSwan.
+## CIDR details for AWS and On-Premises.
+```xml
+AWS VPC CIDR : - 10.0.0.0/16
+On-Premises VPC CIDR : - 192.168.0.0/16
+```
+##  Step 1: Launch the AWS EC2 instance for installing OpenSwan in On-Premises VPC.
 ```xml
 Name: OpenSwan-Server
 ```
@@ -17,15 +21,15 @@ Name: OpenSwan-Server
 yum install openswan -y
 ipsec --version
 ```
-## Step 2: Create the AWS Customer Gateway.
+## Step 2: Create the AWS Customer Gateway in AWS Side.
 ```xml
 Name: telugudevopsguru-CGW
 ```
-## Step 3: Create the Virtual Private Gateway and attach it to the VPC.
+## Step 3: Create the Virtual Private Gateway and attach it to the VPC in AWS Side.
 ```xml
 Name: Murali-VPG
 ```
-## Step 4: Create the Site-to-Site VPN Connection.
+## Step 4: Create the Site-to-Site VPN Connection in AWS Side.
 ```xml
 Name: Murali-to-telugudevopsguru-site-to-site
 ```
@@ -38,10 +42,18 @@ On-Premises - 192.168.0.0/16
 Local IPv4 network CIDR - 192.168.0.0/16 (On-Premises)
 Remote IPv4 network CIDR - 10.0.0.0/16 (AWS CIDR)
 ```
+## Add the route table preparation for the Virtual Private Gateway in AWs Side.
 
-## Step 5: Download the Configuration of the Site-to-Site VPN Connection and configure it in OpenSwan.
+## Step 5: Download the Configuration of the Site-to-Site VPN Connection and configure it in OpenSwan Server.
+## Step 8: Add the OpenSwan instance id  route to the Public RouteTable.
 
-## Step 6: Launch AWS EC2 instances in both VPCs.
+```xml
+Route Entry
+
+Destination : 10.0.0.0/16
+Target : OpenSwan instance ID
+```
+## Step 6: Launch AWS EC2 instances in both VPCs(AWS VPC and the On-Premises VPC.).
 
 ## Step 7: Test the connection between the AWS VPC and the On-Premises VPC.
 
