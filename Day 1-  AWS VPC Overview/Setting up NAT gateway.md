@@ -86,6 +86,6 @@ Target : NAT Gateway ID
 
 ## Step 11: Launch a Linux EC2 instance in the private subnet.
 ## Step 12: SSH into the Linux EC2 instance using the private IP address from the public instance (Bastion Host).
-###### Note: Once connected to the instance, try to ping an external IP address (e.g., 8.8.8.8) or access the internet by using commands like "ping," "curl," or "wget." If the NAT Gateway is configured correctly, you should be able to access the internet from the private EC2 instance.
++ Note: Once connected to the instance, try to ping an external IP address (e.g., 8.8.8.8) or access the internet by using commands like "ping," "curl," or "wget." If the NAT Gateway is configured correctly, you should be able to access the internet from the private EC2 instance.
 
 #### Congratulations! You have successfully set up the NAT Gateway.

@@ -44,8 +44,8 @@ Name: VPC-A-to-VPC-B-Peering
 ## Step 10: Accept the Peering connection in both VPCs.
 
 ## Step 11: Update the route tables in both VPCs to allow traffic to the other VPC.
-In VPC-A route table, add a route for VPC-B's CIDR block to the VPC-A-to-VPC-B-Peering connection.
-In VPC-B route table, add a route for VPC-A's CIDR block to the VPC-A-to-VPC-B-Peering connection.
++ In VPC-A route table, add a route for VPC-B's CIDR block to the VPC-A-to-VPC-B-Peering connection.
++ In VPC-B route table, add a route for VPC-A's CIDR block to the VPC-A-to-VPC-B-Peering connection.
 
 ## Step 12: Launch an EC2 instance in both VPC's public subnets.
 
