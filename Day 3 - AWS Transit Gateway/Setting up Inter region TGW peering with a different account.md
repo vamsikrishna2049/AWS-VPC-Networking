@@ -5,6 +5,7 @@
 + <b>Description:</b>Setting up Inter region TGW peering with the  different AWS account</br>
 
 # Follow the steps below to set up Inter region TGW peering with the different AWS account.
+![Lab - Setting up Inter region TGW peering with a different account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
 
 ## Step 1: Create the AWS VPC
 ```xml

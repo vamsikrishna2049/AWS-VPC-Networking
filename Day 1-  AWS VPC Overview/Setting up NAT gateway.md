@@ -5,7 +5,7 @@
 + <b>Description:</b>Setting up NAT Gateway</br>
 
 # Setting up NAT Gateway
-
+![Lab - Setting up NAT Gateway in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
 ## Step 1: Create the AWS VPC
 ```xml
 Name: Murali-VPC in US East (N. Virginia) us-east-1

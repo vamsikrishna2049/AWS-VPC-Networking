@@ -7,6 +7,7 @@
 # Setting  Up AWS Client VPN endpoint :
 
 You can follow the steps below to set up the AWS Client VPN endpoint.</br>
+![Lab - Setting up Client VPN endpoint in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
 
 ## Step 1: Create the AWS ACM with techworldwithmurali.in
 

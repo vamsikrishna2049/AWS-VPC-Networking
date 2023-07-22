@@ -5,6 +5,9 @@
 + <b>Description:</b>Setting up AWS NACL</br>
 
 # Setting up AWS NACL
+
+![Lab - Setting up NACL in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+
 ## Step 1: Create the Public NACL
 ```xml
 Name: Public-NACL

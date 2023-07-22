@@ -5,6 +5,7 @@
 + <b>Description:</b>Setting up Intra region VPC peering with same account</br>
 
 # Setting up Intra region VPC peering with same account
+![Lab - Setting up Intra region VPC peering with the same account in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
 
 ## Step 1: Create the AWS VPC
 ```xml

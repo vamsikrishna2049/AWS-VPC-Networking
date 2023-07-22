@@ -5,6 +5,8 @@
 + <b>Description:</b>Setting up Security Group</br>
 
 # Setting up Security Group
+![Lab - Setting up Security Group in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+
 ## Step 1: Create the Security Group
 ```xml
 Name: VPC-A-SG

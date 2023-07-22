@@ -5,6 +5,8 @@
 + <b>Description:</b>Setting up AWS VPC Flow Logs</br>
 
 # Setting up AWS VPC Flow Logs
+![Lab -Setting up VPC flow logs in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+
 ### Step 1: Sign in to the AWS Management Console:
 ### Step 2: Open the Amazon VPC Console
 ### Step 3: Select Your VPC
