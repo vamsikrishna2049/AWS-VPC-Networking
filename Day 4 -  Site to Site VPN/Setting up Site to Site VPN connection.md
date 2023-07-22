@@ -6,7 +6,7 @@
 
 
 # Setting Up AWS Site-to-Site VPN Connection:
-![Lab - Setting up a Site-to-Site VPN Connection in telugu - Moole Muralidhara Reddy - Telugu Devops Guru]()
+![Lab - Setting up a Site-to-Site VPN Connection in telugu - Moole Muralidhara Reddy - Telugu Devops Guru](https://github.com/telugudevopsguru/AWS-Networking-5-Days-Practical-Live-Workshop/blob/9731d7265f8f80acc7702f8ddebdfda9639ced46/Day%204%20-%20%20Site%20to%20Site%20VPN/Images/Lab%20-%20Setting%20up%20a%20Site-to-Site%20VPN%20Connection%20in%20telugu%20-%20Moole%20Muralidhara%20Reddy%20-%20Telugu%20Devops%20Guru.png)
 
 You can follow the steps below to set up the AWS Site-to-Site VPN Connection.
 ## CIDR details for AWS and On-Premises.
