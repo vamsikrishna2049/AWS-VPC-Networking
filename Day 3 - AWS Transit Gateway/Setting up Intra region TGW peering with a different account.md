@@ -64,8 +64,13 @@ Associate with the TGW-VPC-B-Attachment.
 ## Step 18: Update the route tables in both VPCs to allow traffic to the other VPC.
 
 + In VPC-A route table, add a route for VPC-B's CIDR block to the TGW connection.
+```xml
+VPC-B CIDR : 192.168.0.0/16
+```
 + In VPC-B route table, add a route for VPC-A's CIDR block to the TGW connection.
-
+```xml
+VPC-A CIDR : 10.0.0.0/16
+```
 ## Step 19: Launch an EC2 instance in both VPC's public subnets.
 
 ## Step 20: Update the Security Group Inbound rules for both instances to allow ICMP traffic.
