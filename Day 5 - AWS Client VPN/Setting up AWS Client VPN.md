@@ -7,21 +7,21 @@
 
 You can follow the steps below to set up the AWS Client VPN endpoint.</br>
 
-# Step 1: Create the AWS ACM with techworldwithmurali.in
+## Step 1: Create the AWS ACM with techworldwithmurali.in
 
 + Request an SSL/TLS certificate from AWS Certificate Manager (ACM) for the domain "techworldwithmurali.in." This certificate will be used to secure the Client VPN connections.
 
 ```xml
  Name: techworldwithmurali.in
 ```
-# Step 2: Create the Active Directory in AWS
+## Step 2: Create the Active Directory in AWS
 
 Set up an Active Directory (AD) server, either on-premises or in AWS, to manage user authentication for the Client VPN.
 
 ```xml
 Name: techworldwithmurali.in
 ```
-# Step 3: Create the Client VPN endpoints
+## Step 3: Create the Client VPN endpoints
 
 Create and Configure the Client VPN endpoints in your AWS environment.
 ```xml
@@ -51,14 +51,14 @@ To allow all users, add the CIDR 10.0.0.0/16.
 
 + Download and install the appropriate Client VPN software on the user's devices.
 
-# Step 4: Launch the instance in VPC
+## Step 4: Launch the instance in VPC
 
 + Set up and launch the necessary EC2 instances or resources within your Virtual Private Cloud (VPC) that you want to access through the Client VPN.
 
-# Step 5: Connect the Client VPN and Connect to the private IP's.
+## Step 5: Connect the Client VPN and Connect to the private IP's.
 
 + Connect the VPN client on the user's device to the Client VPN endpoint. Once connected, users will be able to access the private IP addresses of the resources in the VPC.
 
-# Step 6: Congratulations! You have successfully set up the Client VPN endpoints.
+## Step 6: Congratulations! You have successfully set up the Client VPN endpoints.
 
 + Confirm that the Client VPN is working correctly, and users can access the intended resources securely.
