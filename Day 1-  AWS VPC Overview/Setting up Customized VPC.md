@@ -3,7 +3,7 @@
 + <b>Website:</b> https://www.telugudevopsguru.com/</br>
 + <b>Description:</b>Setting up Customized VPC</br>
 
-# Setting up Setting up Customized VPC.
+# Setting up Customized VPC.
 
 ## Step 1: Create the AWS VPC
 ```xml
