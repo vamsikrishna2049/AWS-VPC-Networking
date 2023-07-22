@@ -3,7 +3,7 @@
 
 # # # # # Course Syllabus
 # Day 1: AWS VPC Overview
-#  AWS VPC Overview
++  AWS VPC Overview
 #  CIDR Overview
 #  Subnets Overview
 #  Route Table Overview
