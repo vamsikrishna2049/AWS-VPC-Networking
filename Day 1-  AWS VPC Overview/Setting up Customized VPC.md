@@ -5,6 +5,7 @@
 + <b>Description:</b>Setting up Customized VPC</br>
 
 # Setting up Customized VPC.
+![AWS Networking Workshop](https://github.com/telugudevopsguru/AWS-Networking-5-Days-Practical-Live-Workshop/blob/224a00b890f1b0d1cd8fd61b56a8f52362a37a1c/_Learn%20AWS%20Networking%20from%20Scratch%20in%20Telugu%20-%20Moole%20Muralidhara%20Reddy.pptx.png)
 
 ## Step 1: Create the AWS VPC
 ```xml
