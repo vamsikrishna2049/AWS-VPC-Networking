@@ -34,19 +34,19 @@ Name: murali-private-subnet-1b
 ## Step 4: Create a 2 app subnets with
 ```xml
 CIDR :10.100.144.0/21
-Name: murali-private-subnet-1a
+Name: murali-app-subnet-1a
 
 CIDR :10.100.162.0/21
-Name: murali-private-subnet-1b
+Name: murali-app-subnet-1b
 
 ```
 ## Step 4: Create a 2 data subnets with
 ```xml
 CIDR :10.100.168.0/21
-Name: murali-private-subnet-1a
+Name: murali-data-subnet-1a
 
 CIDR :10.100.176.0/21
-Name: murali-private-subnet-1b
+Name: murali-data-subnet-1b
 
 ```
 
