@@ -10,8 +10,10 @@
 ### Step 1: Sign in to the AWS Management Console:
 ### Step 2: Open the Amazon VPC Console
 ### Step 3: Select Your VPC
+**Note:** You should have already created the S3 bucket for storing the VPC logs.
+**Name: murali-vpc-flow-logs**
 ### Step 4: Create Flow Log
-### Step 5: Select the Flow Log Destination
+### Step 5: Select the Flow Log Destination as S3
 ### Step 6: Choose Log Format and Settings
 ### Step 7: Review Settings
 ### Step 8: Create the Flow Log
